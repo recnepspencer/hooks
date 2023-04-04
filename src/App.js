@@ -11,11 +11,22 @@ import MouseContainer from './Components/MouseContainer';
 import IntervalClassCounter from './Components/IntervalClassCounter';
 import IntervalHookCounter from './Components/IntervalHookCounter';
 import DataFetching from './Components/DataFetching';
+import ComponentC from './Components/ComponentC';
+import React from 'react';
+
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <DataFetching></DataFetching>
+      <UserContext.Provider value={'Spencer'}>
+        <ChannelContext.Provider value='SpenStar'>
+          <ComponentC></ComponentC>
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+      
+      {/* <DataFetching></DataFetching> */}
       {/* <IntervalHookCounter></IntervalHookCounter>
       <IntervalClassCounter></IntervalClassCounter> */}
       {/* <MouseContainer></MouseContainer> */}

@@ -14,6 +14,7 @@ import DataFetching from './Components/DataFetching';
 import ComponentC from './Components/ComponentC';
 import React from 'react';
 import Counter1 from './Components/Counter1';
+import Counter2 from './Components/Counter2';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -21,7 +22,8 @@ export const ChannelContext = React.createContext()
 function App() {
   return (
     <div className="App">
-      <Counter1></Counter1>
+      <Counter2></Counter2>
+      {/* <Counter1></Counter1> */}
       {/* <UserContext.Provider value={'Spencer'}>
         <ChannelContext.Provider value='SpenStar'>
           <ComponentC></ComponentC>

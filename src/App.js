@@ -20,6 +20,11 @@ import CompA from "./Components/CompA";
 import CompB from "./Components/CompB";
 import CompC from "./Components/CompC";
 import DataFetching1 from "./Components/DataFetching1";
+import DataFetching2 from "./Components/DataFetching2";
+import Countera from "./Components/Counter";
+import InputFocus from "./Components/InputFocus";
+import ClassTimer from "./Components/ClassTimer";
+import HookTimer from "./Components/HookTimer";
 
 // export const CountContext = React.createContext();
 
@@ -45,7 +50,12 @@ function App() {
   return (
     // <CountContext.Provider value={{countState: count, countDispatch: dispatch}}>
       <div className="App">
-        <DataFetching1></DataFetching1>
+        <HookTimer></HookTimer>
+        {/* <ClassTimer></ClassTimer> */}
+        {/* <InputFocus></InputFocus> */}
+        {/* <Countera></Countera> */}
+        {/* <DataFetching2></DataFetching2> */}
+        {/* <DataFetching1></DataFetching1> */}
         {/* Count: {count}
         <CompA></CompA>
         <CompB></CompB>

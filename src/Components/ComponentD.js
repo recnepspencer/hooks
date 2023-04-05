@@ -1,16 +1,16 @@
-import React, {useContext} from 'react'
-import ComponentF from './ComponentF'
-import {UserContext, ChannelContext} from '../App'
+// import React, {useContext} from 'react'
+// import ComponentF from './ComponentF'
+// import {UserContext, ChannelContext} from '../App'
 
-function ComponentD() {
+// function ComponentD() {
 
-    const user = useContext(UserContext)
-    const channel = useContext(ChannelContext)
-  return (
-    <div>
-        {user} - {channel}
-    </div>
-  )
-}
+//     const user = useContext(UserContext)
+//     const channel = useContext(ChannelContext)
+//   return (
+//     <div>
+//         {user} - {channel}
+//     </div>
+//   )
+// }
 
-export default ComponentD
+// export default ComponentD

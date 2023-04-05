@@ -25,6 +25,11 @@ import Countera from "./Components/Counter";
 import InputFocus from "./Components/InputFocus";
 import ClassTimer from "./Components/ClassTimer";
 import HookTimer from "./Components/HookTimer";
+import DocTitleOne from "./Components/DocTitleOne";
+import DocTitleTwo from "./Components/DocTitleTwo";
+import CustomCounterOne from "./Components/CustomCounterOne";
+import CustomCounterTwo from "./Components/CustomCounterTwo";
+import UserForm from "./Components/UserForm";
 
 // export const CountContext = React.createContext();
 
@@ -50,7 +55,12 @@ function App() {
   return (
     // <CountContext.Provider value={{countState: count, countDispatch: dispatch}}>
       <div className="App">
-        <HookTimer></HookTimer>
+        <UserForm></UserForm>
+        {/* <CustomCounterTwo></CustomCounterTwo>
+        <CustomCounterOne></CustomCounterOne> */}
+        {/* <DocTitleTwo></DocTitleTwo>
+        <DocTitleOne></DocTitleOne> */}
+        {/* <HookTimer></HookTimer> */}
         {/* <ClassTimer></ClassTimer> */}
         {/* <InputFocus></InputFocus> */}
         {/* <Countera></Countera> */}
